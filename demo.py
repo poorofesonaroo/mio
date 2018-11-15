@@ -14,7 +14,7 @@ def move():
 			result="pushed button"
 			os.system("python push16.py")
 		if request.form['submit'] == 'strike18':
-			result="switched relay 4 secs"
+			result="switched relay 5 secs"
 			os.system("python buzz.py")
 
 		return render_template('servo.html', res_str=result)
