@@ -5,7 +5,7 @@ GPIO.setup(18, GPIO.OUT)
 GPIO.output(18, GPIO.HIGH)
 try:
     GPIO.output(18, GPIO.LOW)
-    time.sleep(3);
+    time.sleep(5);
     GPIO.output(18, GPIO.HIGH)
     GPIO.cleanup()
 except KeyboardInterrupt:
